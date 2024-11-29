@@ -1,0 +1,27 @@
+.super-over-league-background-container {
+  background-color: #0f172a;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 50px;
+  }
+}
+
+.images {
+  height: 250px;
+}
